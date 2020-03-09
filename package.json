@@ -1,0 +1,44 @@
+{
+  "name": "zup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cuke": ".\\node_modules\\.bin\\cucumber-js --format=json:cucumber_report.json && node index.js",
+    "protractorcuke": "protractor protractor.conf.js",
+    "desafio-web": "npm run protractorcuke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrobrotas/zup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrobrotas/zup/issues"
+  },
+  "homepage": "https://github.com/leandrobrotas/zup#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "log4js": "^5.1.0",
+    "moment": "^2.24.0",
+    "multiple-cucumber-html-reporter": "^1.13.2",
+    "properties-reader": "^0.3.1",
+    "protractor": "^5.4.2",
+    "request": "^2.88.0",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "webdriver-manager": "^12.1.7"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^4.0.4",
+    "protractor-cucumber-framework": "^6.1.3",
+    "protractor-helper": "^3.8.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1"
+  }
+}
