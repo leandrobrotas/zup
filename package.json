@@ -28,7 +28,7 @@
     "log4js": "^5.1.0",
     "moment": "^2.24.0",
     "multiple-cucumber-html-reporter": "^1.13.2",
-    "properties-reader": "^0.3.1",
+    "properties-reader": "^2.2.0",
     "protractor": "^5.4.2",
     "request": "^2.88.0",
     "selenium": "^2.20.0",
